@@ -1,0 +1,28 @@
+{
+  "name": "instapaima",
+  "version": "0.1.0",
+  "description": "Comparte tu fotos con tu comunidad",
+  "main": "server.js",
+  "keywords": [
+    "Red",
+    "comunitaria",
+    "para",
+    "compartir",
+    "fotos",
+    "javascript"
+  ],
+  "author": "El Gio",
+  "license": "MIT",
+  "url": "http://maestreparra.github.io/",
+  "email": "giomarmaestre@gmail.com",
+  "dependencies": {
+    "express": "^4.14.1",
+    "jquery": "^3.1.1",
+    "materialize-css": "^0.98.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-rename": "^1.2.2"
+  }
+}

@@ -1,0 +1,152 @@
+@import "node_modules/materialize-css/sass/materialize.scss";
+
+/*
+Cadmium Red
+HEX: #E30022
+RGB: 227, 0, 34
+
+----------------
+
+Orange Gio
+HEX: #fc3a06 - #f40
+RGB: 252, 58, 6
+
+----------------
+
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+
+----------------
+
+Facebook / #3b5998
+
+*/
+/* --- body --- */
+$color-principal: #ff4400;
+$color-segundo: #666;
+$color-tercero: #E30022;
+
+
+body{
+  background-color: #fff;
+  color: color-segundo;
+  font-family: 'Lato', sans-serif;
+}
+
+/* --- Container --- */
+#main-container{
+  margin: 30px auto;
+}
+
+.telefonos img{
+  max-width: 100%;
+}
+
+.instapaima h1{
+  font: 4em  Oleo Script, cursive;
+  color: $color-principal;
+  text-align: center;
+  line-height: 1em;
+}
+
+.instapaima h2{
+  font: 1.5em Open Sans, sans-serif;
+  color: $color-segundo;
+  text-align: center;
+  line-height: 1em;
+}
+
+.btn-fb{
+  background-color:#3B5998;
+  font: 0.8em Lato, sans-serif;
+  padding-top: 10px;
+}
+
+.btn-fb:hover{
+  background-color:#4090db;
+  color: #fff;
+}
+
+.btn-fb:focus{
+  background-color:#fff;
+  color: #3b5998;;
+}
+
+.signup-form input{
+  color: $color-principal;
+  margin: 0 auto;
+}
+
+.signup-box , .login-box {
+  border: 1px solid #d7d7d7;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+
+/* label underline focus color */
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid $color-principal;
+  box-shadow: 0 1px 0 0 $color-principal;
+}
+.input-field input[type=email]:focus {
+  border-bottom: 1px solid $color-principal;
+  box-shadow: 0 1px 0 0 $color-principal;
+}
+.input-field input[type=password]:focus {
+  border-bottom: 1px solid $color-principal;
+  box-shadow: 0 1px 0 0 $color-principal;
+}
+/* label underline focus color */
+
+
+
+.bg-botton-orange{
+  background-color: $color-principal;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.bg-botton-orange:hover{
+  background-color: #fff;
+  color: $color-principal;
+}
+
+.bg-botton-orange:focus{
+  background-color: #fff;
+  color: $color-principal;
+}
+
+.a-orange a{
+  color: $color-principal;
+}
+
+.a-orange a:hover{
+  color: $color-tercero;
+}
+
+.a-orange a:focus{
+  color: $color-tercero;
+}
+
+/* --- footer --- */
+footer{
+  border-top: 1px solid $color-segundo;
+  padding: 80px 0 50px 0;
+  text-transform: uppercase;
+}
+
+.dropdown-content li a{
+  color: $color-principal;
+}
+
+.dropdown-content li a:hover{
+  color: #fff;
+  background-color: $color-principal;
+}
+
+.dropdown-content li a:focus{
+  color: #fff;
+  background-color: $color-principal;
+}
