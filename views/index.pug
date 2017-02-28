@@ -1,0 +1,33 @@
+html
+    head
+        title AtapaimaGram
+
+        meta(charset='UTF-8')
+        // Let browser know website is optimized for mobile
+        meta(name='viewport', content='width=device-width, initial-scale=1.0, user-scalable=no')
+        // Styles CSS
+        link(href='https://fonts.googleapis.com/css?family=Lato|Open+Sans|Oswald|Oleo+Script', rel='stylesheet')
+
+        link(rel='stylesheet', href='app.css', type='text/css')
+
+        section#main-container
+
+        footer.site-footer
+            .container
+                .row
+                    .col.s12.l3.center-align
+                        // Dropdown Trigger
+                        a.dropdown-button.btn.bg-botton-orange(href='#', data-activates='dropdown1') Idiomas
+                        // Dropdown Structure
+                        ul#dropdown1.dropdown-content
+                            li
+                                a(href='#!') Español
+                            li
+                                a(href='#!') English
+                    .col.s12.l3.push-l6.center-align
+                        | © 2017 Instapaima
+
+        // Import jQuery before materialize.js
+        script(type='text/javascript', src='https://code.jquery.com/jquery-2.1.1.min.js')
+        // Compiled and minified JavaScript
+        script(src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js')
