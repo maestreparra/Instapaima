@@ -2,8 +2,9 @@
  * Created by GIO on 28/2/2017.
  */
 
-var numeros = [400 , 200 , 1 , -23];
+var page = require('page');
 
-var numerosMas1 = numeros.map(n => n + 1)
+require('./homepage');
+require('./signup');
 
-console.log(numerosMas1);
+page();
